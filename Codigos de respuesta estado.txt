@@ -1,0 +1,6 @@
+Cuando se envia una eFactura por defecto queda en estado:
+11=Pendiente de confirmar por DGI (Esperando 2da respuesta)
+cuando pasa a estado 00 ya fue aceptada por DGI (ver còdigos de respuesta).
+
+La consulta por cada CFE se puede hacer ejecutando el comando "Consultas" y pegando el UUID de la eFactura correspondiente que está guardado en la DB LibUCFE
+Se pega ese contenido le damos al boton EstadoCFE y nos devuelve una respuesta (codigo 00 o 11)
